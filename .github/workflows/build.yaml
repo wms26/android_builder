@@ -13,9 +13,9 @@ jobs:
         
       # 设置 Java 运行环境
       - name: Set up JDK
-        uses: actions/setup-java@v4.4.0
+        uses: actions/setup-java@v1
         with:
-          java-version: 17.0.12
+          java-version: 17
           
       # 读取项目地址
       - id: get-project
